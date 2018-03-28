@@ -1,0 +1,7 @@
+<div class="template-container template-button">
+    <span>{{buttonCtrl.messageData.title}}</span>
+    <div class="template-button-container" 
+        ng-repeat="button in buttonCtrl.messageData.buttons">
+        <button class="template-button-single">{{button.title}}</button>
+    </div>
+</div>

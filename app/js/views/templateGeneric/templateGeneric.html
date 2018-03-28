@@ -1,0 +1,11 @@
+<div class="template-container template-generic">
+    <img ng-src="{{genericCtrl.messageData.image_url}}" alt="{{genericCtrl.messageData.title}}" />
+    <span>{{genericCtrl.messageData.title}}</span>
+    <span class="template-subtitle">
+        {{genericCtrl.messageData.subtitle}}
+    </span>
+    <div class="template-button-container" 
+        ng-repeat="button in genericCtrl.messageData.buttons">
+        <button class="template-button-single">{{button.title}}</button>
+    </div>
+</div>

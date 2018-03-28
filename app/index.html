@@ -3,12 +3,20 @@
 <head>
     <meta charset="utf-8">
     <title>AngularTest</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 
     <script src="lib/angular/angular.js"></script>
 
     <script src="app.js"></script>
+    <script src="js/views/chatbox/chatboxComponent.js"></script>
+    <script src="js/views/chatbox/MessageService.js"></script>
+    <script src="js/views/templateText/templateTextComponent.js"></script>
+    <script src="js/views/templateImage/templateImageComponent.js"></script>
+    <script src="js/views/templateGeneric/templateGenericComponent.js"></script>
+    <script src="js/views/templateButton/templateButtonComponent.js"></script>
 </head>
 <body ng-app="chitchat" ng-controller="AppController as AppCtrl">
-
+    <chatbox></chatbox>
 </body>
 </html>

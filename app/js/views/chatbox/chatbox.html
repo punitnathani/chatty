@@ -1,0 +1,25 @@
+
+<div ng-if="chatboxCtrl.conversation"
+    ng-repeat="message in chatboxCtrl.conversation.messages"
+    class="chat-container">
+    <div 
+    ng-class="{'chat-bubble': message.template_type === 'text' , 'bubble-right': message.sender === 'you'}">
+        <div class="pad-horizontal">
+            <template-text ng-if="message.template_type === 'text'"
+                message-data="message.value">
+            </template-text>
+            <template-image ng-if="message.template_type === 'image'"
+                message-data="message.value">
+            </template-image>
+            <template-generic ng-if="message.template_type === 'generic'"
+                message-data="message.value">
+            </template-generic>
+            <template-button ng-if="message.template_type === 'button'"
+                message-data="message.value">
+            </template-button>
+        </div>
+    </div>
+</div>
+<div ng-if="!chatboxCtrl.conversation">
+    <p>No conversation found.</p>
+</div>

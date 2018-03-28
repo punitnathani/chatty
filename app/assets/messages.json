@@ -1,0 +1,114 @@
+{
+    "conversation_id": "abc123",
+    "messages": [
+        {
+            "message_id": "1",
+            "sender"  : "chatty",
+            "timestamp": "1522135736360",
+            "template_type": "text",
+            "value" : "Welcome! I am Chatty, your friendly assistant"
+        },
+        {
+            "message_id": "2",
+            "sender"  : "you",
+            "timestamp": "1522135736360",
+            "template_type": "text",
+            "value" : "Hello"
+        },
+        {
+            "message_id": "3",
+            "sender"  : "chatty",
+            "timestamp": "1522135736360",
+            "template_type": "generic",
+            "value" : {
+                "title" : "Generic placeholder title",
+                "subtitle"  : "Random subtitle",
+                "image_url" : "https://placeimg.com/380/200/any",
+                "buttons": [
+                    {
+                        "type"  : "button_type_1",
+                        "title" : "Surprise!"
+                    },
+                    {
+                        "type"  : "button_type_2",
+                        "title" : "Guess what?"
+                    }
+                ]
+            }
+        },
+        {
+            "message_id": "4",
+            "sender"  : "you",
+            "timestamp": "1522135736360",
+            "template_type": "text",
+            "value" : "Surprise!"
+        },
+        {
+            "message_id": "5",
+            "sender"  : "chatty",
+            "timestamp": "1522135736360",
+            "template_type": "image",
+            "value" : {
+                "title" : "Random Image title",
+                "image_url" : "https://placeimg.com/800/480/any"
+            }
+        },
+        {
+            "message_id": "6",
+            "sender"  : "you",
+            "timestamp": "1522135736360",
+            "template_type": "text",
+            "value" : "Show me more"
+        },
+        {
+            "message_id": "7",
+            "sender"  : "chatty",
+            "timestamp": "1522135736360",
+            "template_type": "button",
+            "value" : {
+                "title"   : "What would you like?",
+                "buttons" : [
+                    {
+                        "type"  : "button_type_1",
+                        "title" : "Claim free gift"
+                    },
+                    {
+                        "type"  : "button_type_3",
+                        "title" : "Proceed"
+                    }
+                ]
+            }
+        },
+        {
+            "message_id": "8",
+            "sender"  : "you",
+            "timestamp": "1522135736360",
+            "template_type": "text",
+            "value" : "Claim free gift"
+        },
+        {
+            "message_id": "9",
+            "sender"  : "chatty",
+            "timestamp": "1522135736360",
+            "template_type": "generic",
+            "value" : {
+                "title" : "Here's your gift!",
+                "subtitle"  : "Another subtitle",
+                "image_url" : "https://placeimg.com/380/220/any",
+                "buttons": [
+                    {
+                        "type"  : "button_type_1",
+                        "title" : "Claim"
+                    }
+                ]
+            }
+        },
+        {
+            "message_id": "10",
+            "sender"  : "you",
+            "timestamp": "1522135736360",
+            "template_type": "text",
+            "value" : "Thank you"
+        }
+    ]
+}
